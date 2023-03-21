@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="main__container">
+      <section class="left__container">
+        <h1 class="result__heading">Your Result</h1>
+        <div class="circle">
+          <div class="numbers">
+            <h1 class="number__heading">76</h1>
+            <p class="test">of 100</p>
+          </div>
+        </div>
+        <div class="left__container__bottom">
+          <h1 class="left__container__bottom--header">Great</h1>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </section>
+      <section class="right__container">
+        <h1>Summary</h1>
+        <div class="row row--reaction">
+          <div class="row__img">
+            <img src="./assets/images/icon-reaction.svg" alt="" />
+          </div>
+          <span class="value--reaction">Reaction</span>
+          <div class="row__right">
+            <p><span class="bold">80</span><span class="fade"> / 100</span></p>
+          </div>
+        </div>
+        <div class="row row--memory">
+          <div class="row__img">
+            <img src="./assets/images/icon-memory.svg" alt="" />
+          </div>
+          <span class="value--memory">Memory</span>
+          <div class="row__right">
+            <p><span class="bold">92</span><span class="fade"> / 100</span></p>
+          </div>
+        </div>
+        <div class="row row--verbal">
+          <div class="row__img">
+            <img src="./assets/images/icon-verbal.svg" alt="" />
+          </div>
+          <span class="value--verbal">Memory</span>
+          <div class="row__right">
+            <p><span class="bold">61</span><span class="fade"> / 100</span></p>
+          </div>
+        </div>
+        <div class="row row--visual">
+          <div class="row__img">
+            <img src="./assets/images/icon-visual.svg" alt="" />
+          </div>
+          <span class="value--visual">Visual</span>
+          <div class="row__right">
+            <p><span class="bold">72</span><span class="fade"> / 100</span></p>
+          </div>
+        </div>
+        <button class="main__button">Continue</button>
+      </section>
+    </div>
+  </body>
+</html>
